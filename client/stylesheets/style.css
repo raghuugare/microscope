@@ -1,9 +1,17 @@
 /* Our CSS file...*/
 
+* {
+    font-family: Helvetica Neue, Optima;
+    font-size: 32px;
+    font-weight: 100;
+}
+
 .brand {
     background: #eef;
+    font-weight: 300;
+    font-size: 48px;
     border-radius: 5px;
-    padding: 2px 100px;
+    padding: 2px 3g0px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
