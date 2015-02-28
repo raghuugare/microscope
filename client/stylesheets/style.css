@@ -8,7 +8,8 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 body {
-    background: #eee; color: #666666;
+    background: #eee;
+    color: #666666;
 }
 
 .navbar { margin-bottom: 10px }
@@ -26,16 +27,21 @@ body {
     opacity: 1;
 }
 
-.post:before, .post:after
-                        {
+.post:before, .post:after {
                             content: "";
                             display: table; }
 
-.post:after { clear: both } .post.invisible { opacity: 0 } .post .upvote {
+.post:after { clear: both }
+
+.post.invisible { opacity: 0 }
+
+.post .upvote {
     display: block; margin: 7px 12px 0 0; float: left;
 }
 
-.post .post-content { float: left } .post .post-content h3 {
+.post .post-content { float: left }
+
+.post .post-content h3 {
     margin: 0; line-height: 1.4; font-size: 18px;
 }
 .post .post-content h3 a {
@@ -51,6 +57,7 @@ body {
 .post .post-content p { margin: 0 } .post .discuss {
     display: block; float: right; margin-top: 7px;
 }
+
 .comments {
     list-style-type: none;
     margin: 0; }
@@ -80,6 +87,8 @@ body {
     height: 60px;
     line-height: 60px; margin-bottom: 10px;
 }
+
 .load-more:hover {
     text-decoration: none;
-    background: rgba(0, 0, 0, 0.1); }
+    background: rgba(0, 0, 0, 0.1);
+}
