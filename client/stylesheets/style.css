@@ -1,18 +1,31 @@
 /* Our CSS file...*/
 
-* {
-    font-family: Helvetica Neue, Optima;
-    font-size: 40px;
-    font-weight: 100;
+/* {
+   font-family: Helvetica Neue, Optima;
+   font-size: 40px;
+   font-weight: 100;
+   } */
+
+.post {
+    font-family: Bariol, Helvetica Neue, Optima, sans-serif;
+    font-weight: 200;
+    font-size: 80px;
 }
 
-
 .brand {
-    background:  #f5fbdc;
-    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background: #eed8ae;   /* #f5fbdc;*/
+    text-align: center;
+    font-family: Bariol, Optima, sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    color: #458b00;
     border-radius: 30px;
     padding: 2px 30px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
@@ -32,7 +45,7 @@ body {
 .navbar { margin-bottom: 10px }
 
 .navbar .navbar-inner {
-    border-radius: 0px 0px 3px 3px; }
+    border-radius: 0px 0px 5px 5px; }
 
 #spinner { height: 300px } .post {
     *zoom: 1;
@@ -45,8 +58,8 @@ body {
 }
 
 .post:before, .post:after {
-                            content: "";
-                            display: table; }
+    content: "";
+    display: table; }
 
 .post:after { clear: both }
 
@@ -59,7 +72,9 @@ body {
 .post .post-content { float: left }
 
 .post .post-content h3 {
-    margin: 0; line-height: 1.4; font-size: 18px;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 30px;
 }
 .post .post-content h3 a {
     display: inline-block;
@@ -82,9 +97,9 @@ body {
     margin: 0; }
 
 .comments li h4 { font-size: 16px;
-                  margin: 0; }
+    margin: 0; }
 .comments li h4 .date { font-size: 12px;
-                        font-weight: normal; }
+    font-weight: normal; }
 
 .comments li h4 a { font-size: 12px }
 
