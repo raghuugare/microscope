@@ -13,6 +13,7 @@
 }
 
 .brand {
+    margin: 30px;
     width: 600px;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -40,6 +41,7 @@
     border: 1px solid gray;
     border-left-width: 10px;
     border-left-color: coral;
+    margin: 30px;
 }
 
 
